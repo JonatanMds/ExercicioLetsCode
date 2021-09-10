@@ -1,0 +1,64 @@
+#main{
+
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 3fr 1fr;
+    gap: 40px;
+}
+
+
+
+
+
+.section{
+    margin-bottom: 20px; 
+}
+
+
+
+
+
+.section h1{
+    border-bottom: 2px solid grey;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: RGB(4, 138, 180);    
+}
+
+.section h3,p{
+    line-height: 1.5rem;
+}
+
+.section h3{
+    font-weight: bold;
+}
+
+
+
+
+
+.section li{
+    margin-bottom: 5px;
+}
+
+.section.experience ul{
+    padding-left: 27px;
+}
+
+.section.education ul{
+    padding-left: 27px;
+}
+
+.section.skills ul{
+	list-style: none;
+}
+
+.section.personalSkills ul{
+    list-style: none;
+}
+
+.section.contact ul{
+    list-style: none;
+}
+

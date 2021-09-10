@@ -1,0 +1,42 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+}
+
+
+
+
+#header{
+    
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:solid 2px grey;    
+}
+
+
+
+
+
+
+#header h1{
+    font-size: 3rem;
+    color: RGB(4, 138, 180);
+    font-weight: 500;    
+}
+
+#header h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 35vh;
+    z-index: 100;
+    background-color: white;
+    padding: 0 3vw 0 3vw;
+    color: grey;
+    font-weight: 400;
+}
